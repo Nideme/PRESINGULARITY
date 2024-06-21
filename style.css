@@ -1,0 +1,494 @@
+#myVideo {
+  
+    width: 50%;
+    margin-left: 29%;
+    margin-top: -30%;
+    position: static;
+}
+
+#tiny_video{
+  
+    width: 10%;
+    margin-top: -11%;
+    z-index: -10;
+    margin-left: 38%;
+    position: fixed;
+}
+
+.underline {
+    margin-top: 0%;
+    margin-left: 20%;
+}
+
+
+.sticky-header {
+    opacity: 0;
+    margin-top: 0%;
+    position: sticky;
+    top: 0;
+    background-color: none;
+    transition: opacity 2s ease, transform 1s ease;
+    z-index: 1000; /* Ensure the header is above other elements */
+    padding-top:2%;
+}
+
+
+/* Additional styles for the navigation menu */
+.main-menu ul {
+    background: none;
+    overflow: hidden;
+    list-style: none;
+    text-decoration: none ;
+}
+
+.main-menu li {
+    float: none;
+    padding: 1%;
+    margin-right: 5%;
+    font-size: large;
+    
+}
+
+.main-menu li a {
+    display:flex;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.main-menu li a:hover {
+    background-color: none;
+}
+
+.submenu{
+    display: none;  
+}
+.menu:hover .submenu {
+    display: block; /* Zeigt das Submenu an, wenn man über das Menü fährt */
+  }
+
+
+
+/* Ensure the menu is responsive */
+@media screen and (max-width: 600px) {
+    .main-menu li {
+        float: none;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+#main-content {
+    /* other styles */
+    display: none; /* Initially hidden */
+}
+
+
+
+.PRE-SINGULARITY{
+   
+    font-family: Arial, sans-serif;
+    font-size: 3em;
+    align-items: center;
+    background: none;
+    transition: opacity 2s ease, transform 1s ease;
+
+}
+
+
+section {
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    z-index: 10;
+    
+}
+ 
+header {
+    margin-top: 20%;
+    text-align: center;
+    padding: 0;
+    z-index: 10;
+}Adjusts width minus margin 
+
+
+.categoryhead{
+   
+    align-items: center;
+    text-align: center;
+    margin-top: 60%; 
+    font-size: 500%;
+    display: contents;
+}
+
+
+
+main {
+    margin-top: 40%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    z-index: 15;
+   
+}
+
+
+.project0 {
+  
+    display: flex; /* Uses Flexbox layout to align child divs in a row */
+    justify-content: space-between; /* Distributes space between child divs */
+    margin: 10%;
+  }
+  .project {
+  
+    display: flex; /* Uses Flexbox layout to align child divs in a row */
+    justify-content: space-between; /* Distributes space between child divs */
+
+  }
+
+.bogen{
+width: 30%;
+height:5%;
+color: aliceblue;
+}
+
+.project_img {
+   width: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+
+
+/* existing CSS */
+
+/* existing CSS */
+
+.fullscreen-video-wrap {
+   
+    top: 0;
+    left: 0;
+    z-index: 0; /* Above the main content */
+    position: static;
+}
+
+.small-video {
+    height: 50%; /* Adjust as needed */
+    width: auto;
+    position: static; /* or 'absolute' depending on your layout */
+    left: 20%;
+    
+}
+
+
+
+ Ensure main content covers the entire screen when visible  */
+#main-content {
+    
+    display: none;
+    position: static;
+    z-index: 10;
+}
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: -30%;
+}
+
+
+
+/* GPT side css */
+
+.sticky-header2 {
+    opacity: 1;
+    margin-top: 0%;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    transition: opacity 2s ease, transform 1s ease;
+    z-index: 1000; /* Ensure the header is above other elements */
+    padding-top:2%;
+}
+
+.PRE-SINGULARITY2{
+   
+    margin-left: 0%;
+      font-family: Arial, sans-serif;
+      font-size: 2em;
+      background: none;
+      transition: opacity 2s ease, transform 1s ease;
+  
+     
+  }
+
+.ourGPTs {
+
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    align-items: center;
+    background: none;
+    transition: opacity 2s ease, transform 1s ease;
+
+  
+}
+
+nav {
+float: center;
+text-align: center;
+}
+
+.gpt-menu {
+   position: sticky;
+   font-size: 1em;
+   align-items: center;
+
+   
+}
+
+.gpt-menu ul {
+    background: none;
+    overflow: hidden;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 8%;
+}
+
+.gpt-menu li {
+    float:inline-start;
+    padding: auto;
+    margin-right: 5%;
+    
+}
+
+.gpt-menu li a {
+    display:flex;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.gpt-menu li a:hover {
+    background-color: #111;
+}
+
+
+.headline-gpt{
+
+    color: white;
+    
+}
+
+.bogen2 {
+    
+    height: 5%;
+color: aliceblue;
+margin: 5%;
+width:30%;
+}
+
+.head {
+  
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+.gptsfooter {
+    margin-top: 25%;
+}
+
+@media (max-width: 1000px) {
+  
+
+
+/* Style for when the video and text become part of the header */
+.small-video {
+
+
+    position: static;
+    left: 0%;
+    transform: translateX(-0%);
+  
+
+}
+  
+.gpt-menu li {
+    float:unset;
+    padding: auto;
+    margin-right: 5%;
+    
+}
+}
+@media (max-width: 800px) {
+
+
+  
+.category-head{
+    align-items: center;
+    text-align: center;
+    margin-top: 60%;
+}
+ 
+    .small-video {
+
+      
+        position: static;
+        left: 0%;
+        transform: translateX(-0%);
+        
+      
+    
+    
+    }
+
+    #brand-owner {
+        margin-top: 10%;
+        font-size: 2em;
+    }
+
+    #brand-name {
+        font-size: 3em;
+    }
+}
+
+
+@media (max-width: 600px) {
+ 
+    
+        .main-menu li a {
+            display: unset;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+        }
+    
+        .small-video {
+
+           
+            position: static;
+            left: 0%;
+            transform: translateX(-0%);
+        }
+
+
+        #tiny_video{
+  
+           display: none;
+           opacity: 0;
+        }
+        
+        .bogen2 {
+            width: 70%;
+            height: 5%;
+            color: aliceblue;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+
+  
+
+        .project {
+  
+           
+            display:block;
+            justify-content: space-between; /* Distributes space between child divs */
+        
+          }
+}
+
+@media (max-width: 400px) {
+  
+    .main-menu li a {
+        display: unset;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+
+    .PRE-SINGULARITY{
+    
+        font-family: Arial, sans-serif;
+        margin-top: 0%;
+       
+        font-size: 2em;
+        margin-bottom: 10%;
+        align: center;
+    }
+
+    .small-video {
+
+       
+        position: static;
+        left: 0%;
+        transform: translateX(-0%);
+        
+      
+    
+    
+    }
+    
+}  
+
+
+/* 
+
+
+.brand-name {
+    position: relative;
+    margin-top: -100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    color: white;
+    opacity: 0;
+    transition: opacity 2s ease, transform 1s ease;
+    z-index: 8;
+}
+
+.brand-owner {
+    position: relative;
+    margin-top:-20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    opacity: 0;
+    transition: opacity 2s ease, transform 1s ease;
+    z-index: 8;
+}
+Additional styles for the navigation menu */
