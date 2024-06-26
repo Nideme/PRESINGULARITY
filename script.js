@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
 
     console.log('Video and text hidden, main content should be visible.');
-}, 3500); */
+}, 3500); 
    
 
    setTimeout(function() {
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
+*/
 
 function toggleSubmenu() {
   // Zugriff auf das Submenu-Element
